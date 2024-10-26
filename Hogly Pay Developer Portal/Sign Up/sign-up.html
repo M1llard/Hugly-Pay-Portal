@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="process-signup.php" method="post" novalidate>
+            <p class="head">Hugly Pay Developer Portal</p>
+            <div class="personal-details">
+                <p class="sub-header">Personal Details</p>
+                <p class="firstname" id="label">First Name</p>
+                <input type="text" id="firstname" name="firstname" class="user-input">
+                <p class="surname" id="label">Surname</p>
+                <input type="text" id="surname" name="surname" class="user-input">
+                <p class="email-address" id="label">Email Address</p>
+                <input type="email" id="email-address" name="emailaddress" class="user-input">
+                <p class="id-number" id="label">ID Number</p>
+                <input type="text" id="id-number" name="idnumber" class="user-input">
+                <p class="gender" id="label">Gender</p>
+                <input type="text" id="gender" name="gender" class="user-input">
+                <p class="dob" id="label">Date of Birth</p>
+                <input type="date" id="dob" name="dob" class="user-input">
+            </div>
+            <div class="contact-details">
+                <p class="sub-header">Contact details</p>
+                <p class="cell-number" id="label">Cellphone Number</p>
+                <input type="tel" required pattern="[0-9]{4}[0-9]{3}[0-9]{3}" id="cell-number" name="cellnumber" class="user-input">
+                <p class="password" id="label">Physical Address</p>
+                <input type="text" name="physicaladdress" id="physical-address" class="user-input">
+            </div>
+            <div class="organisation-dtls">
+                <p class="sub-header">Organisation Details</p>
+                <p class="role" id="label">Role</p>
+                <input type="text" name="role" id="rolename" class="user-input">
+                <p class="department" id="label">Department</p>
+                <input type="text" name="department" id="department" class="user-input">
+                <p class="company-name" id="label">Company Name</p>
+                <input type="text" name="company-name" id="companyname" class="user-input">
+                <p class="company-address" id="label">Company Address</p>
+                <input type="text" name="company-address" id="companyaddress" class="user-input">
+            </div>
+            <div class="tandcs">
+                <input type="checkbox" name="tandcs" id="tandcs">
+                <label class="tandcs1">I accept the <a href="">terms</a> &amp; <a href="">conditions</a></label>
+            </div>
+            <div class="register-btn">
+                <input type="submit" value="Register" class="register">
+            </div>
+            <div class="sign-up">
+                <p>Already have an account?<a href=""> Log in</a></p>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <footer>
+            <p>Terms & Conditions  |  Privacy Policy  |  Manage Cookies</p>
+            <p>&copy; Copyright 2024 Hugly Group (Pvt) Ltd</p>
+        </footer>
+    </div>
+</body>
+</html>

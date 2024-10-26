@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    background-color: #08081B;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 100%;
+}
+
+.container {
+    height: 490px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #02427D;
+    border-width: 1px;
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.user-input {
+    width: 490px;
+    height: 40px;
+    background-color: #08081B;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #02427D;
+    border-radius: 5px;
+}
+
+#label {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#authenticator{
+    margin-bottom: 10px;
+}
+
+#sub-header{
+    font-weight: bold;
+}
+
+.remember-me input[type='checkbox']{
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.remember-me label::before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    border: solid;
+    border-width: 2px;
+    border-color: lightblue;
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-top: 1px;
+    margin-bottom: 9px;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+
+p {
+    color: white;
+}
+
+.login-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button{
+    width: 495px;
+    height: 40px;
+    font-family: Montserrat;
+    background-color: #0f7fac;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.forgot-password{
+    margin-left: 165px;
+    margin-top: 5px;
+}
+
+a{
+    color: #0f7fac;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    gap: 570px;
+    margin-top: 30px;
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #02427D;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    font-size: 12px;
+}

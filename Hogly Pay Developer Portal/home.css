@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    background-color: #00162A;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar h3 {
+    color: white;
+    margin-right: 800px;
+}
+
+.nav-bar button {
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-bar .log-in {
+    background-color: #08081B;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #02427D;
+    color: #02427D;
+    font-family: Montserrat;
+}
+
+.nav-bar .sign-up {
+    color: white;
+    background-color: #02427D;
+    border-color: #02427D;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: Montserrat;
+}
+
+p {
+    color: white;
+}
+
+.home-image {
+    width: 1100px;
+    height: 500px;
+    background-image: url("swipe_card.png");
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.home-image h1 {
+    color: white;
+}
+
+.home-image .text {
+    height: 200px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 275px;
+}
+
+.home-image .text button {
+    width: 130px;
+    height: 35px;
+}
+
+.home-image .text .learn-more {
+    background-color: rgb(138, 233, 236);
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(138, 233, 236);
+    border-radius: 5px;
+    font-family: Montserrat;
+    margin-right: 10px;
+}
+
+.home-image .text .contact-sales {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+}
+
+.getting-started {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.getting-started #rocket {
+    font-size: 35px;
+    color: rgb(240, 43, 43);
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+
+.getting-started h1 {
+    color: #03dcf8;
+    margin-left: 480px;
+}
+
+.getting-started #text {
+    margin-left: 300px;
+}
+
+.getting-started .heading {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.getting-started i{
+    color: #049db1;
+}
+
+.getting-started .guides .idea-sol .heading i {
+    margin-left: 30px;
+}
+
+.getting-started .guides {
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    width: 1250px;
+}
+
+.getting-started .guides #size {
+    width: 400px;
+}
+
+.getting-started .options {
+    font-size: 14px;
+}
+
+.getting-started .options p {
+    color: #03dcf8;
+}
+
+.use-cases {
+    background-color: #08081B;
+    width: 1080px;
+    border-radius: 20px;
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+.use-cases .heading {
+    margin-bottom: 60px;
+}
+
+.use-cases .heading #title {
+    color: red;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+.use-cases .heading h1 {
+    color: #03dcf8;
+    margin-left: 90px;
+}
+
+.use-cases .heading p {
+    margin-left: 170px;
+}
+
+.use-cases .options {
+    background-color: #00162A;
+    border-radius: 20px;
+    height: fit-content;
+    width: 1050px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.use-cases .options .comp-options {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.use-cases .options .use-case-options img {
+    width: 240px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.use-cases .options .use-case-options h4 {
+    color: white;
+}
+
+.use-cases .options .comp-options {
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+}
+
+.use-cases .options .use-case-options {
+    display: flex;
+    margin-left: 25px;
+}
+
+.use-cases .other-options i {
+    color: #03dcf8;
+}
+
+.use-cases .other-options .opt {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1050px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.use-cases .other-options .opt i{
+    margin-left: 820px;
+}
+
+.use-cases .other-options .opt1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1050px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.use-cases .other-options .opt1 i{
+    margin-left: 720px;
+}
+
+.use-cases .other-options .opt2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1050px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.use-cases .other-options .opt2 i{
+    margin-left: 730px;
+}
+
+.use-cases .other-options .opt3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1050px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.use-cases .other-options .opt3 i{
+    margin-left: 755px;
+}
+
+.use-cases .other-options h4 {
+    color: white;
+    margin-left: 20px;
+}
+
+.advantages {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1200px;
+}
+
+.advantages h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.advantages .support i {
+    margin-left: 75px;
+}
+
+.advantages .payments i {
+    margin-left: 63px;
+}
+
+.advantages .insights i {
+    margin-left: 21px;
+}
+
+.advantages .management i {
+    margin-left: 55px;
+}
+
+.advantages p {
+    font-size: 14px;
+    border-style: solid;
+    width: 270px;
+    border-width: 1px;
+    border-color: #03dcf8;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 17px;
+}
+
+.advantages i {
+    color: #03dcf8;
+    margin-left: 19px;
+}
+
+.advantages #adv {
+    width: 510px;
+    height: 130px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #08081B;
+    border-radius: 12px;
+    background: #08081B;
+    padding: 5px;
+}
+
+.success-stories {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.success-stories i{
+    font-size: 40px;
+    color: red;
+    margin-left: 230px;
+}
+
+.success-stories h1 {
+    margin-left: 20px;
+    color:#03dcf8;
+}
+
+.success-stories p {
+    margin-left: 12px;
+}
+
+.examples {
+    display: flex;
+    width: 1100px;
+}
+
+.examples #opt {
+    padding-left: 20px;
+    height: 230px;
+}
+
+.examples h3 {
+    color: white;
+}
+
+.examples i {
+    color: red;
+}
+
+.examples p {
+    font-size: 14px;
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    border-width: 1px;
+    padding-top: 17px;
+    border-color: #03dcf8;
+}
+
+.examples img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #08081B;
+}
+
+.examples .example1 img {
+    background-color: aqua;
+}
+
+.examples .example1 i {
+    margin-left: 210px;
+}
+
+.examples .example2 i {
+    margin-left: 227px;
+}
+
+.examples .example3 i {
+    margin-left: 187px;
+}
+
+.ready-to-grow {
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+    background-image: url("chess_3.png");
+    border-radius: 10px;
+}
+
+.ready-to-grow i {
+    color: #02427D;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.ready-to-grow h1 {
+    color: white;
+    margin-left: 380px;
+}
+
+.ready-to-grow p {
+    margin-left: 250px;
+}
+
+.ready-to-grow button {
+    height: 40px;
+    width: 140px;
+    margin-left: 440px;
+    margin-top: 15px;
+    border-radius: 7px;
+    background-color: #02427D;
+    color: #049db1;
+    border-color: #02427D;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Montserrat;
+}
+
+.socials {
+    display: flex;
+    margin-top: 70px;
+    width: 1100px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.socials #soc {
+    width: 300px;
+    padding: 10px;
+}
+
+.socials h4 {
+    color: white;
+}
+
+.socials .whatsapp p {
+    max-width: 200px;
+}
+
+.socials .whatsapp i {
+    margin-left: 95px;
+}
+
+.socials .whatsapp h4 {
+    margin-left: 55px;
+}
+
+.socials .facebook i {
+    margin-left: 85px;
+}
+
+.socials .facebook h4 {
+    margin-left: 55px;
+}
+
+.socials .youtube i {
+    margin-left: 80px;
+}
+
+.socials .youtube h4 {
+    margin-left: 55px;
+}
+
+.socials .x i {
+    margin-left: 80px;
+}
+
+.socials .x h4 {
+    margin-left: 90px;
+}
+
+.socials .linkedin i {
+    margin-left: 90px;
+}
+
+.socials .linkedin h4 {
+    margin-left: 65px;
+}
+
+.socials i {
+    color: white;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    gap: 570px;
+    margin-top: 30px;
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #02427D;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    font-size: 12px;
+}
